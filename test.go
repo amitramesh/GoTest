@@ -20,7 +20,7 @@ func main() {
 
 func foo() {
 	for index := 0; index < 45; index++ {
-		fmt.Println("Foo1:", index)
+		fmt.Println("Foo:", index)
 	}
 	wg.Done()
 }
