@@ -28,7 +28,6 @@ func foo() {
 func bar() {
 	for index := 0; index < 45; index++ {
 		fmt.Println("Bar", index)
-		fmt.Println("Bar", index)
 	}
 	wg.Done()
 }
