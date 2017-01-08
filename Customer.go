@@ -12,7 +12,7 @@ func main() {
 	fmt.Println("This is my first Go program i am really existed now")
 	//wg.Add(2)
 	//go foo()
-	
+
 	//go bar()
 	wg.Wait()
 }
